@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Personal Rabin Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d821352024.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div id=header>
+        <div class="container">
+            <nav>
+                <img src="photo/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Rabin Chaulagain</span><br>Form Nepal, Kathmandu</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------------about---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo/292313740_755633108900926_6672871564733971666_n.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello, I'm Rabin Chaulagain, an entrepreneur and innovator passionate about creating impactful solutions through technology and strategic leadership. 
+                        With over two decades of experience in diverse industries, I have dedicated my career to driving growth, inspiring innovation, and contributing positively to communities worldwide.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/XI</span><br>Designing Web/Apps</li>
+                            <li><span>Web Development</span><br>Web/App Development</li>
+                            <li><span>App Development</span><br>Building ioS/Androud App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br> Completing BCA</li>
+                            <li><span>2021 - 2022</span><br> Manager in Web - making</li>
+                            <li><span>2020 - 2021</span><br>Work as web - editing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current </span><br>Completing BCA at Dillibazar</li>
+                            <li><span>2020 - 2022</span><br> complete +2 form Bajra internation College</li>
+                            <li><span>2007 - 2019</span><br> Complete SEE form SASS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------services---------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Web design is the process of conceptualizing, planning, and building a website's layout, appearance, and functionality. It combines various disciplines such as graphic design, user interface (UI) design, user experience (UX) design, and front-end development to create an engaging and functional website. The primary goal of web design is to provide an optimal user experience while effectively conveying the intended message and brand identity.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX design</h2>
+                    <p>UI (User Interface) and UX (User Experience) design are crucial components of web and application development. Though they are distinct disciplines, they work closely together to create digital products that are not only functional but also enjoyable to use.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>App design encompasses the process of creating the visual and functional aspects of a mobile application. It involves a combination of user interface (UI) design, user experience (UX) design, and interaction design to ensure that the app is intuitive, visually appealing, and easy to use.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------portfolio---------------->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="photo/work1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Creating a social media app for your website can be an excellent way to engage users, build a community, and promote your brand.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo/GettyImages-1036256804-6f03495f031246a6b1d86daa43df73ee.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Creating a music app for your website can be a great addition to enhance user engagement and provide an immersive audio experience.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo/work3.avif">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>Creating a shopping app for your website can provide users with a convenient way to browse, purchase, and track products.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!--------------------contact------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> rabinchaulagian98@gmail.com</p>
+                <p> <i class="fa-solid fa-phone-volume"></i> 9742876717</p>
+                <div class="div social-icons">
+                    <a href="https://www.facebook.com/people/Rabin-Chaulagain/100033627315483/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/AplGamer18047"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/rabin84/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkdin.com/in/rabin-chaulagain-511696260"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="photo/my-cv.pdf.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rabin Chaulagain. Made with <i class="fa-regular fa-heart"></i> by Tutorials</p>
+    </div>
+</div>
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwcZ5Gwp0OCo3NVNcGrhXB80xE4bjYK8-AozeU-3gV68SfwF28sjLVdFe8qiJX-1fp60Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
